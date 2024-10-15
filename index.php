@@ -47,12 +47,12 @@
         <div class="sidebar-logo">
           <!-- Logo Header -->
           <div class="logo-header" data-background-color="dark">
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
               <img
-                src="assets/img/logoTA2.png"
+                src="assets/img/Logo JAWARA ver.2.png"
                 alt="navbar brand"
                 class="navbar-brand"
-                height="50"
+                height="60"
               />
             </a>
             <div class="nav-toggle">
@@ -96,23 +96,40 @@
                 <div class="collapse" id="spk">
                   <ul class="nav nav-collapse">
                     <li>
-                      <a href="spk/submitspk.html">
+                      <a href="spk/submitspk.php">
                         <span class="sub-item">SUBMIT SPK</span>
                       </a>
                     </li>
                     <li>
-                      <a href="spk/listspk.html">
-                        <span class="sub-item">LIST SPK PENDING</span>
+                      <a href="spk/listspk.php">
+                        <span class="sub-item">LIST SPK PROGRESS</span>
                       </a>
                     </li>
                     <li>
-                      <a href="spk/listspk_rejected.html">
+                      <a href="spk/listspk_rejected.php">
                         <span class="sub-item">LIST SPK REJECTED</span>
                       </a>
                     </li>
                     <li>
-                      <a href="spk/listspk_approved.html">
+                      <a href="spk/listspk_approved.php">
                         <span class="sub-item">LIST SPK APPROVED</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="nav-item">
+                <a data-bs-toggle="collapse" href="#approval">
+                  <i class="fas fa-layer-group"></i>
+                  <p>APPROVAL</p>
+                  <span class="caret"></span>
+                </a>
+                <div class="collapse" id="approval">
+                  <ul class="nav nav-collapse">
+                    <li>
+                      <a href="approval/approval_spk.php">
+                        <span class="sub-item">APPROVAL SPK</span>
                       </a>
                     </li>
                   </ul>
@@ -129,7 +146,7 @@
           <div class="main-header-logo">
             <!-- Logo Header -->
             <div class="logo-header" data-background-color="dark">
-              <a href="index.html" class="logo">
+              <a href="index.php" class="logo">
                 <img
                   src="assets/img/kaiadmin/logo_light.svg"
                   alt="navbar brand"
@@ -301,11 +318,11 @@
                   <ul class="dropdown-menu dropdown-user animated fadeIn">
                     <div class="dropdown-user-scroll scrollbar-outer">
                       <li>
-                        <a class="dropdown-item" href="profile.html"
+                        <a class="dropdown-item" href="profile.php"
                           >My Profile</a
                         >
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="login.html">Logout</a>
+                        <a class="dropdown-item" href="login.php">Logout</a>
                       </li>
                     </div>
                   </ul>
@@ -361,7 +378,7 @@
                       </div>
                       <div class="col col-stats ms-3 ms-sm-0">
                         <div class="numbers">
-                          <p class="card-category">Pending</p>
+                          <p class="card-category">Progress</p>
                           <h4 class="card-title">1303</h4>
                         </div>
                       </div>

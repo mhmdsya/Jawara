@@ -39,13 +39,18 @@
   </head>
 
   <body class="login">
-    <div class="wrapper wrapper-login">
+    <div class="wrapper wrapper-login" style="background-image: url('assets/img/bg-login.jpg'); background-size: cover; background-position: top center">
       <div class="container container-login animated fadeIn">
-        <h3 class="text-center">Sign In</h3>
-        <form action="index.html" method="POST">
+        <div class="chart-circle">
+          <img src="assets/img/Logo jawara Hitam ver.2.png" height="100">
+        </div>
+        
+        <h1 class="text-center">SIGN IN</h1>
+        <h4 class="text-center">DASHBOARD TA REG-2</h4>
+        <form action="index.php" method="POST">
           <div class="login-form">
             <div class="form-group">
-              <label for="username" class="placeholder"><b>Username</b></label>
+              <label for="username"><b>NIK</b></label>
               <input
                 id="username"
                 name="username"
@@ -55,7 +60,7 @@
               />
             </div>
             <div class="form-group">
-              <label for="password" class="placeholder"><b>Password</b></label>
+              <label for="password"><b>Password</b></label>
               <div class="position-relative">
                 <input
                   id="password"
@@ -65,7 +70,7 @@
                   required
                 />
                 <div class="show-password">
-                  <i class="gg-eye"></i>
+                  <i class="fas fa-eye"></i>
                 </div>
               </div>
             </div>
@@ -80,9 +85,20 @@
                   >Remember Me</label
                 >
               </div>
+              <div>
+                <a
+                  class="custom-control-label m-0"
+                  for="register"
+                  href="register.php"
+                >
+                  Register
+                </a>
+              </div>
+            </div>
+            <div class="chart-circle">
               <input
                 type="submit"
-                class="btn btn-primary col-md-5 float-end mt-3 mt-sm-0 fw-bold"
+                class="btn btn-primary btn-round "
                 value="Sign In"
               />
             </div>

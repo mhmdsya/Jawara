@@ -6095,6 +6095,8 @@ body {
     background: #ffffff; }
   body[data-background-color="bg3"] {
     background: #f1f1f1; }
+  body[data-background-color="panel"] {
+    background: #cf5151; }
   body[data-background-color="dark"] {
     background: #1a2035; }
   body[data-background-color="dark2"] {
